@@ -1,0 +1,3 @@
+dn: ou=redhat_pune, dc=redhat, dc=com
+objectclass: organizationalUnit
+ou: redhat_pune

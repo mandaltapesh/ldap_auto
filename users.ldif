@@ -1,0 +1,9 @@
+dn: cn=Tapesh Mandal, ou=redhat_pune, dc=redhat, dc=com
+cn: Tapesh mandal
+sn: Mandal
+objectclass: Person
+
+dn: cn=Kaushik Bannerjee, ou=redhat_pune, dc=redhat, dc=com
+cn: Kaushik Bannerjee
+sn: Bannerjee
+objectclass: Person
