@@ -1,9 +1,7 @@
 import subprocess
 
-#responses = ["\n", "redhat.com\n", "redhat\n", "secret", "secret", "\n", "\n", "\n", "\n"]
-
 proc_pkg_install = subprocess.Popen(["sudo", "apt-get", "-y", "install", "slapd", "ldap-utils"], stdin=subprocess.PIPE)
-#proc_pkg_install.stdin.write(passw+"\n")
+
 proc_pkg_install.communicate()
 
 proc_pkg_install.stdin.close()
